@@ -1,7 +1,11 @@
 import React from 'react'
+// import LoginPg from './Components/LoginPg';
+// import RegisterPg from './Components/RegisterPg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Dashboard from './Components/Dashboard';
+
 import LoginPg from './Components/LoginPg';
 import RegisterPg from './Components/RegisterPg';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './Components/Dashboard';
 
 export default function App() {
